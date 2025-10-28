@@ -1,0 +1,353 @@
+
+.logindiv{
+    background: radial-gradient(1000px 1000px at 20% -10%, rgba(234, 6, 219, 0.61) transparent 90%),
+                radial-gradient(1200px 1000px at 120% 10%, rgba(225, 226, 229, 0.932), transparent 90%),
+                #b008d21f;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.formdiv{
+    width: 100%;
+    max-width: 980px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.registerbg{
+    
+    background:
+        linear-gradient(180deg, rgba(243,244,246,0.65), rgba(229,231,235,0.65)),
+        url('../src/assets/IMG/hospital-interior-design-detailed-modern-hospital-wallpaper-with-highresolution-details_271410-58169.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.register{ display: flex; }
+/* New Patient / Register Button */
+.register .btn-primary {
+    background: linear-gradient(90deg, #0ab4ed, #7c3aed); /* Gradient color */
+    border: none; /* optional: remove border */
+    color: #ffffff; /* fully visible text */
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 1rem; /* readable font size */
+    padding: 0.75rem 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.register .btn-primary:hover {
+    background: linear-gradient(90deg, #7c3aed, #0ab4ed); /* Hover gradient */
+    color: #ffffff; /* ensure text stays visible */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(242, 239, 244, 0.922); /* subtle hover shadow */
+}
+
+.register a{ color: #501dea; }
+.register a:hover{ color: #c4b5fd; }
+
+.register-header{
+    background: linear-gradient(95deg,  rgb(232, 223, 232), rgb(245, 244, 248));
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.register-header h2{ font-weight: 700; }
+.register-subtitle{ color: #126fe1; margin-top: 4px; }
+
+.section-title{
+    font-size: 14px;
+    font-weight: 700;
+    color: #000508;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 6px;
+}
+
+.register-clarity .form-label { color: #e5e7eb; font-weight: 600; }
+.register-clarity .form-control, .register-clarity .form-select {
+    background-color: #0b1020;
+    border: 1px solid rgba(255,255,255,0.16);
+    color: #f8fafc;
+    padding: 0.65rem 0.9rem;
+    font-size: 1rem;
+}
+.register-clarity .form-control::placeholder { color: #94a3b8; }
+.register-clarity .form-control:focus, .register-clarity .form-select:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.25rem var(--ring);
+}
+.register-clarity h2, .register-clarity .section-title { letter-spacing: 0.03em; }
+.register-clarity .register-subtitle { color: #a3b2c6; }
+.register-clarity .form-text { color: #9fb0c8; }
+
+.register.register-clarity{
+    background: rgba(243,244,246,0.85) !important; 
+    border: 1px solid rgba(229,231,235,0.8);
+    color: #111827;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+}
+.register.register-clarity .register-header{
+    background: linear-gradient(95deg, #f7f7f8, #f1f2f4);
+    border-bottom: 1px solid #e5e7eb;
+}
+.register-clarity .form-label { color: #111827; }
+.register-clarity .section-title { color: #374151; }
+.register-clarity .register-subtitle { color: #4b5563; }
+.register-clarity .form-control, .register-clarity .form-select{
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    color: #111827;
+}
+.register-clarity .form-control::placeholder { color: #6b7280; }
+.register-clarity .form-control:focus, .register-clarity .form-select:focus{
+    border-color: #0284c7;
+    box-shadow: 0 0 0 0.25rem rgba(2,132,199,0.25);
+}
+.formcon{ margin-left: 0; }
+
+.login-card {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 0;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255,255,255,0.01));
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(2, 6, 23, 0.6);
+}
+
+.login-visual {
+    background: url('../src/assets/IMG/glasses-notebook-near-medical-supplies.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.login-visual::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(1, 2, 8, 0.884) rgba(2,6,23,0.6));
+}
+
+.login-content {
+    padding: 3rem 2rem;
+    background: rgba(249, 5, 119, 0.384);
+}
+
+.brand-title {
+    font-size: 20px;
+    color: #e9ecef;
+}
+
+.headline {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.subheadline {
+    color: #eef1f5;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 992px) {
+    .login-card { grid-template-columns: 1fr; }
+    .login-visual { height: 200px; }
+}
+
+.home-hero .carousel-item::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(2,6,23,0.45), rgba(2,6,23,0.65));
+}
+.hero-caption{ bottom: 20%; }
+.hero-caption .eyebrow{
+    display: inline-block;
+    padding: 4px 10px;
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 999px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.hero-caption h1{ font-weight: 800; }
+.hero-caption p{ color: #cbd5e1; margin-top: 6px; }
+.hero-actions .btn-outline-light{
+    border-color: rgba(255,255,255,0.6);
+    color: #e5e7eb;
+}
+.hero-actions .btn-outline-light:hover{
+    background: rgba(255,255,255,0.12);
+}
+
+.specialties{ gap: 16px; }
+.specialty-card{ overflow: hidden; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+.specialty-card:hover{ transform: translateY(-4px); box-shadow: 0 16px 36px rgba(2,6,23,0.6); }
+.specialty-image{ height: 200px; object-fit: cover; }
+
+
+.home-hero-v2{ position: relative; min-height: 70vh; display: flex; align-items: center; }
+.home-hero-v2 .hero-bg{ position: absolute; inset: 0; background-size: cover; background-position: center; filter: brightness(0.7); }
+.home-hero-v2 .container{ position: relative; }
+.home-hero-v2 .hero-content{ max-width: 760px; padding: 3rem 0; }
+.home-hero-v2 .eyebrow{ display: inline-block; padding: 4px 10px; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.18); border-radius: 999px; margin-bottom: 10px; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; }
+.home-hero-v2 h1{ font-weight: 800; }
+.home-hero-v2 p{ color: #cbd5e1; margin-top: 6px; }
+.home-hero-v2 .btn-outline-light{ border-color: rgba(255,255,255,0.6); color: #e5e7eb; }
+.home-hero-v2 .btn-outline-light:hover{ background: rgba(255,255,255,0.12); }
+
+.benefits .benefit-badge{ display:inline-block; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color:#22d3ee; border:1px solid rgba(34,211,238,0.5); padding:2px 8px; border-radius:999px; }
+.specialties-grid{ gap: 16px; }
+.section-heading{ font-weight: 800; }
+
+.how-it-works .step-number{ width: 36px; height: 36px; border-radius: 50%; display:flex; align-items:center; justify-content:center; background: rgba(34,211,238,0.18); border:1px solid rgba(34,211,238,0.4); color:#22d3ee; font-weight:700; }
+
+.testimonials .quote{ font-size: 16px; color:#e5e7eb; }
+.testimonials .author{ color:#94a3b8; margin-top:8px; }
+
+.cta-band .cta-inner{ background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01)); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; }
+
+.appointment-page {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.appointment-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+}
+
+.appointment-header {
+  background: linear-gradient(95deg, rgba(34,211,238,0.1), rgba(2,132,199,0.1));
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  color: var(--text);
+}
+
+.doctor-info {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid rgba(213, 205, 205, 0.897);
+    color: var(--text);
+  }
+
+  .doctor-details{
+    color: var(--text);
+  }
+  
+
+.doctor-info:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(198, 196, 196, 0.15);
+  border-color: rgba(34,211,238,0.3);
+}
+
+.book-btn {
+  background: linear-gradient(90deg, var(--primary), var(--primary-600));
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.book-btn:hover {
+  background: linear-gradient(90deg, var(--primary-600), #0891b2);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(34,211,238,0.3);
+}
+
+.cancel-btn {
+  transition: all 0.2s ease;
+}
+
+.cancel-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(220,53,69,0.3);
+}
+
+.appointment-card .form-control,
+.appointment-card .form-select {
+  background-color: rgba(11,16,32,0.8);
+  border: 1px solid rgba(255,255,255,0.1);
+  color: var(--text);
+  transition: all 0.3s ease;
+}
+
+.appointment-card .form-control:focus,
+.appointment-card .form-select:focus {
+  background-color: rgba(11,16,32,0.9);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 0.25rem var(--ring);
+  color: var(--text);
+}
+
+.appointment-card .form-label {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.appointment-card .form-control::placeholder {
+  color: var(--muted);
+}
+
+
+.appointment-page .table {
+  color: var(--text);
+}
+
+.appointment-page .table th {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+.appointment-page .table td {
+  border-color: rgba(255,255,255,0.05);
+  vertical-align: middle;
+}
+
+.appointment-page .table-hover tbody tr:hover {
+  background-color: rgba(34,211,238,0.05);
+}
+
+
+.appointment-page .badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .appointment-card .card-body {
+    padding: 1.5rem !important;
+  }
+  
+  .doctor-info {
+    margin-bottom: 1rem !important;
+  }
+  
+  .appointment-page .table-responsive {
+    font-size: 0.875rem;
+  }
+}

@@ -1,0 +1,11 @@
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Application\bin\Debug\net8.0\DoctorAppointmentScheduler.Application.deps.json
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Application\bin\Debug\net8.0\DoctorAppointmentScheduler.Application.dll
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Application\bin\Debug\net8.0\DoctorAppointmentScheduler.Application.pdb
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Application\obj\Debug\net8.0\DoctorAppointmentScheduler.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Application\obj\Debug\net8.0\DoctorAppointmentScheduler.Application.AssemblyInfoInputs.cache
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Application\obj\Debug\net8.0\DoctorAppointmentScheduler.Application.AssemblyInfo.cs
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Application\obj\Debug\net8.0\DoctorAppointmentScheduler.Application.csproj.CoreCompileInputs.cache
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Application\obj\Debug\net8.0\DoctorAppointmentScheduler.Application.dll
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Application\obj\Debug\net8.0\refint\DoctorAppointmentScheduler.Application.dll
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Application\obj\Debug\net8.0\DoctorAppointmentScheduler.Application.pdb
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Application\obj\Debug\net8.0\ref\DoctorAppointmentScheduler.Application.dll

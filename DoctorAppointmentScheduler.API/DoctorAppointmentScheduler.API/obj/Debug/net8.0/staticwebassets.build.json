@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "xAsni5pu1h/DE2y418aJHlZ00LjCsOIt2GVC7pHDVRQ=",
+  "Source": "DoctorAppointmentScheduler.API",
+  "BasePath": "_content/DoctorAppointmentScheduler.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

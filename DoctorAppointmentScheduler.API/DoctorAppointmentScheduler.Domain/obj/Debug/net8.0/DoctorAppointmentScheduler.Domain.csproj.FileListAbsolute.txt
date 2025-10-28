@@ -1,0 +1,12 @@
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Domain\bin\Debug\net8.0\DoctorAppointmentScheduler.Domain.deps.json
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Domain\bin\Debug\net8.0\DoctorAppointmentScheduler.Domain.dll
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Domain\bin\Debug\net8.0\DoctorAppointmentScheduler.Domain.pdb
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Domain\obj\Debug\net8.0\DoctorAppointmentScheduler.Domain.csproj.AssemblyReference.cache
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Domain\obj\Debug\net8.0\DoctorAppointmentScheduler.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Domain\obj\Debug\net8.0\DoctorAppointmentScheduler.Domain.AssemblyInfoInputs.cache
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Domain\obj\Debug\net8.0\DoctorAppointmentScheduler.Domain.AssemblyInfo.cs
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Domain\obj\Debug\net8.0\DoctorAppointmentScheduler.Domain.csproj.CoreCompileInputs.cache
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Domain\obj\Debug\net8.0\DoctorAppointmentScheduler.Domain.dll
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Domain\obj\Debug\net8.0\refint\DoctorAppointmentScheduler.Domain.dll
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Domain\obj\Debug\net8.0\DoctorAppointmentScheduler.Domain.pdb
+D:\Techtalk2025\Doctor appointment scheduler\DoctorAppointmentScheduler.API\DoctorAppointmentScheduler.Domain\obj\Debug\net8.0\ref\DoctorAppointmentScheduler.Domain.dll
